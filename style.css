@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto Slab',
+    serif;
+    margin: 0rem;
+    font-size: 1.1rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+:root {
+    --primary-color: #475569;
+    --grey-colour: #cbd5e1;
+    --blue-colour: #4f46e5;
+}
+
+/* image */
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--blue-colour);
+    text-align: center;
+}
+
+
+
+.navbar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+
+.navbar .name {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding-top: 0.5rem;
+    font-style: italic;
+
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.non-bullet {
+    list-style: none;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.inline-item {
+    display: inline;
+    padding: 0rem 2rem;
+}
+
+.navbar .link {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.link-active {
+    font-weight: bolder;
+}
+
+.first-link {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+
+}
+.second-link {
+    border-radius: 1rem;
+    border: 1.5px solid var(--primary-color);
+    color: var(--primary-color);
+
+}
+
+
+
+.section {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem 1rem;
+    color: white;
+
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    padding-left: 0.5rem;
+}
+
+
+.footer .link {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 25px;
+    color: white;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+
+  /* hover effects */
+
+  section:hover {
+    background-color: var(--grey-colour);
+    transition: all 0.5s ease;
+    padding-top: 1rem;
+  }
+
+.effects:hover {
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px black;
+}
+
+.footer .link:hover {
+    font-size: 40px;
+    transition: all 0.5s ease;
+}
+
+
+.navbar .link:hover {
+    color: black;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 5px;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+    box-shadow: 5px 5px 5px;
+}
+
+/* projects css */
+
+.align-left {
+    text-align: left;
+    padding-left: 5rem;
+
+}
+
+.heading {
+    color: var(--blue-colour);
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+
+span {
+    background-color: red;
+}
