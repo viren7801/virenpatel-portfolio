@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
 
 body {
-    font-family: 'Roboto Slab',
-    serif;
+    font-family: 'Source Sans 3', sans-serif;
     margin: 0rem;
     font-size: 1.1rem;
 }
@@ -187,9 +186,4 @@ img:hover {
     color: var(--blue-colour);
     text-align: center;
     padding-bottom: 0.5rem;
-}
-
-
-span {
-    background-color: red;
 }
