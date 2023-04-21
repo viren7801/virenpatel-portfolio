@@ -4,6 +4,7 @@ body {
     font-family: 'Source Sans 3', sans-serif;
     margin: 0rem;
     font-size: 1.1rem;
+    background: linear-gradient(to right,#e5e7eb, white );
 }
 
 hr {
