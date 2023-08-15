@@ -217,3 +217,25 @@ img:hover {
     margin: auto;
     padding-bottom: 1rem;
 }
+
+
+.hero-heading{
+    animation-name: viren;
+    animation-delay: 01s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes viren {
+  from {
+    color: #ef4444;
+    margin-right: 50px;
+  }
+  to {
+    margin-left: 50px;
+    color: #a3e635;
+  }
+}
